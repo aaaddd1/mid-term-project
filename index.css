@@ -3,7 +3,6 @@
 body {
     padding: 0;
     margin: 0;
-    border:solid black;
 }
 
 body {
@@ -690,9 +689,13 @@ footer{
     }
     .footerAddr{
         text-align: center;
+        font-size: 14px;
     }
     .footerLinks{
         margin-top: 20px;
         transform: translate(0, 0);
+    }
+    .footerLinks a{
+        font-size: 15px;
     }
 }
