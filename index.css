@@ -377,14 +377,14 @@ nav a:hover{
     background-position: 50% 50%;
 }   
 .icon1{
-    background-image: url("/mid_term_project/images/services-section/icons/1.svg");
+    background-image: url("./images/services-section/icons/1.svg");
 }
 
 .icon2{
-    background-image: url("/mid_term_project/images/services-section/icons/2.svg");
+    background-image: url("./images/services-section/icons/2.svg");
 }
 .icon3{
-    background-image: url("/mid_term_project/images/services-section/icons/3.svg");
+    background-image: url("./images/services-section/icons/3.svg");
 }
 
 .servicesContent{
@@ -468,7 +468,7 @@ nav a:hover{
 }
 
 .envelope{
-    background-image: url("/mid_term_project/images/newsletter/icon/mail.svg");
+    background-image: url("./images/newsletter/icon/mail.svg");
     background-repeat: no-repeat;
     position: relative;
     background-position: 9% 50%;
@@ -671,6 +671,7 @@ footer{
         }
         .emailField{
             width: 50%;
+            font-size: 14px;
         }
         .subsButton{
             width: 70%;
