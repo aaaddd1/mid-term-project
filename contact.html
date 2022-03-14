@@ -1,43 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Contact Us</title>
 </head>
+
 <body>
-    <div class="outerHeader">   
-        <header class="containerH"> 
+    <div class="outerHeader">
+        <header class="containerH">
             <img class="headerLogo" src="/mid_term_project/images/logos/circle.svg" alt="circle">
             <nav>
-                <a href="Home">Home</a>
+                <a href="index.html">Home</a>
                 <a href="Projects">Projects</a>
                 <a href="Services">Services</a>
             </nav>
-            <button class="contactButton" type="button">Contact Us</button>
+            <a href="contact.html" class="contactButton">Contact Us</a>
         </header>
     </div>
 
-    <div class="contactContainer">
-        <form action="action_page.php">
-          <label for="fname">Full Name*</label>
-          <input type="text" id="fname" name="fullname" placeholder="Enter your full name">
-      
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Enter your email address">
-      
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{9}" required>
+    <div class="padre">
+        <div class="contactContainer">
+            <h1 class="contactHd">Contact Us</h1>
+            <div class="contactForm">
+                <form id="emailForm" name="emailForm" class="contactGrid">
+                    <div class="fnameDiv">
+                        <label for="fname" class="contactTitle">Full Name*</label>
+                        <input type="text" class="inputDetails allInput" id="fname" name="fullname"
+                            placeholder="Enter your full name">
+                    </div>
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write your message here ..." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+                    <div class="emailPhoneDiv">
+                        <label for="email" class="contactTitle">Email</label>
+                        <input type="text" class="inputDetails allInput" id="email" name="email"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="emailPhoneDiv">
+                        <label for="phone" class="contactTitle">Phone</label>
+                        <input type="tel" class="inputDetails allInput" id="phone" name="phone"
+                            placeholder="Enter your phone number" pattern="[0-9]{9}" required>
+                    </div>
 
-      <footer>
+                    <div class="messDiv">
+                        <label for="message" class="contactTitle">Message*</label>
+                        <textarea id="message" class="inputDetails textArea allInput" name="message"
+                            placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <input type="submit" class="fnameDiv subsButton addtional" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
         <div class="padre containerFooter">
             <div class="footerContent">
                 <div class="footerLogo"></div>
